@@ -1,71 +1,88 @@
 # Awesome Game Translations [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome community-driven video game translation, localization, and modding projects.
+> 精选的电子游戏社区翻译、汉化与本地化项目列表。
 
-Community translations preserve gaming heritage, make games accessible across language barriers, and often involve deep reverse-engineering of proprietary formats. This list celebrates those efforts.
+社区翻译让玩家跨越语言障碍，也让经典游戏在不同文化中延续生命力。本列表收录由社区驱动的游戏翻译项目，按语言分类。
 
-## Contents
+## 目录
 
-- [Translation Tools & Frameworks](#translation-tools--frameworks)
-- [FPS / Shooter](#fps--shooter)
-- [RPG / CRPG](#rpg--crpg)
-- [Visual Novel / Adventure](#visual-novel--adventure)
-- [Strategy / Simulation](#strategy--simulation)
-- [Action / Adventure](#action--adventure)
-- [Retro / Classic](#retro--classic)
-- [Translation Platforms & Communities](#translation-platforms--communities)
-
----
-
-## Translation Tools & Frameworks
-
-Tools that enable game translation across multiple titles or engines.
-
-- [MisakaTranslator](https://github.com/hanmin0822/MisakaTranslator) - Real-time machine translation tool for Galgames, visual novels, and manga. Supports text hooking and OCR extraction with multiple translation API backends. `C#` `WPF`
-- [Ren'Py Translator](https://github.com/renpy/renpy) - The Ren'Py visual novel engine has built-in translation support for any game built on it. `Python`
-- [Translator++](https://github.com/illusion0001/TranslatorsTool) - Universal game translation editor supporting dozens of engines. `JavaScript`
-
-## FPS / Shooter
-
-- [Call of Duty 4 Chinese Patch](https://github.com/thedavidweng/cod4-cn-patch) - Modern cross-platform installer for the classic COD4 Chinese localization. Replaces 2009's proprietary Windows-only toolchain with a pure Python implementation supporting Windows, Linux/SteamOS, and macOS. `Python`
-
-## RPG / CRPG
-
-- [Deus Ex i18n Toolkit](https://github.com/fmwizard/deus-ex-i18n-toolkit) - Universal localization toolkit for Deus Ex 1 (GOTY / 1.112fm). Handles binary-level work: rewriting UE1 text packages, generating font atlases from TTF, and patching DLLs for CJK word-wrap. Ships translations as JSON dictionaries. `Python`
-- [Shadowrun: Dragonfall Chinese Patch](https://github.com/fmwizard/shadowrun-dragonfall-zh) - Complete Simplified Chinese localization patch for Shadowrun: Dragonfall – Director's Cut. Covers all in-game text with full translation, proofreading, and platform-specific installers (Steam / GOG / Epic).
-
-## Visual Novel / Adventure
-
-- [MisakaTranslator](https://github.com/hanmin0822/MisakaTranslator) - (also listed under Tools) Real-time machine translation for visual novels and Galgames via text hooking or OCR. Supports offline operation, dictionary lookup, and human translation override. `C#`
-
-## Strategy / Simulation
-
-*Contributions welcome!*
-
-## Action / Adventure
-
-*Contributions welcome!*
-
-## Retro / Classic
-
-- [Call of Duty 4 Chinese Patch](https://github.com/thedavidweng/cod4-cn-patch) - (also listed under FPS) Modernizes a 2009 fan translation for cross-platform use. `Python`
-- [Deus Ex i18n Toolkit](https://github.com/fmwizard/deus-ex-i18n-toolkit) - (also listed under RPG) Full localization pipeline for the 2000 classic. `Python`
-
-## Translation Platforms & Communities
-
-Platforms and communities that coordinate game translation efforts.
-
-- [Paratranz](https://paratranz.cn) - Collaborative translation platform popular in the Chinese game modding community.
-- [Crowdin](https://crowdin.com) - Hosts translation projects for games including Minecraft.
-- [Transifex](https://transifex.com) - Enterprise translation platform used by some game studios.
-- [Weblate](https://weblate.org) - Open-source translation platform, self-hostable.
+- [中文 (Chinese)](#中文-chinese)
+  - [翻译工具](#翻译工具)
+  - [FPS / 射击](#fps--射击)
+  - [RPG / 角色扮演](#rpg--角色扮演)
+  - [视觉小说 / 文字冒险](#视觉小说--文字冒险)
+  - [策略 / 模拟](#策略--模拟)
+  - [经典 / 复古](#经典--复古)
+- [日语 (Japanese)](#日语-japanese)
+- [韩语 (Korean)](#韩语-korean)
+- [其他语言](#其他语言)
+- [翻译平台与社区](#翻译平台与社区)
+- [贡献](#贡献)
 
 ---
 
-## Contributing
+## 中文 (Chinese)
 
-Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
+### 翻译工具
 
-## License
+- [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - Galgame / 文字游戏 / 漫画多语种实时机翻工具。支持 Hook 和 OCR 两种文本提取方式，兼容离线翻译，内置分词与字典功能。`C#` `WPF`
+
+### FPS / 射击
+
+- [Call of Duty 4 中文补丁](https://github.com/thedavidweng/cod4-cn-patch) - 基于游侠汉化组 2009 年原版成果的现代化跨平台安装器。将原版私有 EXE 工具链替换为纯 Python 实现，支持 Windows / Linux (SteamOS) / macOS。`Python`
+
+### RPG / 角色扮演
+
+- [Deus Ex i18n Toolkit](https://github.com/fmwizard/deus-ex-i18n-toolkit) - 杀出重围 1 (GOTY / 1.112fm) 通用本地化工具包。处理二进制层面的工作：重写 UE1 文本包、从 TTF 生成字体图集、为 CJK 语言打 DLL 自动换行补丁。翻译数据以 JSON 字典形式输入。`Python`
+- [暗影狂奔：龙陨 简体中文汉化补丁](https://github.com/fmwizard/shadowrun-dragonfall-zh) - Shadowrun: Dragonfall – Director's Cut 完整简体中文汉化。覆盖全文本，提供 Steam / GOG / Epic 三平台安装包。
+
+### 视觉小说 / 文字冒险
+
+- [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - （同上·翻译工具）支持实时 Hook 提取游戏文本并调用多种翻译 API，也可通过 OCR 识别画面文字。
+
+### 策略 / 模拟
+
+*欢迎贡献！*
+
+### 经典 / 复古
+
+- [Call of Duty 4 中文补丁](https://github.com/thedavidweng/cod4-cn-patch) - （同上·FPS）将 2009 年汉化补丁现代化，跨平台可用。
+- [Deus Ex i18n Toolkit](https://github.com/fmwizard/deus-ex-i18n-toolkit) - （同上·RPG）2000 年经典的完整本地化管线。
+
+---
+
+## 日语 (Japanese)
+
+*欢迎贡献！*
+
+## 韩语 (Korean)
+
+*欢迎贡献！*
+
+## 其他语言
+
+*欢迎贡献！按语言新增分区即可。*
+
+---
+
+## 翻译平台与社区
+
+- [Paratranz](https://paratranz.cn) - 协作翻译平台，在中文游戏汉化社区中广泛使用。
+- [机核 GCORES](https://www.gcores.com) - 中文游戏文化社区，常有汉化项目分享。
+- [3DM 汉化](https://www.3dmgame.com) - 国内老牌游戏汉化组。
+- [游侠网](https://www.ali213.net) - 国内最大的单机游戏社区之一，拥有众多汉化组。
+
+---
+
+## 贡献
+
+欢迎提交 Pull Request！请先阅读[贡献指南](CONTRIBUTING.md)。
+
+添加项目时请提供：
+- 项目名称与 GitHub 链接
+- 1–2 句中文描述
+- 所属语言分区与分类
+
+## 许可证
 
 [![CC0 1.0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)

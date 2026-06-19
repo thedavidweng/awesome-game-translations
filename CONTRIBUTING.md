@@ -1,42 +1,41 @@
-# Contributing
+# 贡献指南
 
-Thanks for your interest in contributing!
+感谢你的关注！
 
-## Adding a Project
+## 添加项目
 
-To add a project, submit a Pull Request with:
+提交 Pull Request 时请包含：
 
-1. **Project name** — linked to the GitHub repo
-2. **Description** — 1–2 sentences explaining what the project does
-3. **Category** — place it in the appropriate section
-4. **Tech tags** — optional `language` tags at the end of the entry
+1. **项目名称** — 链接到 GitHub 仓库
+2. **描述** — 1–2 句中文说明
+3. **语言分区** — 放在对应语言的分类下
+4. **分类** — 选择合适的游戏类型分类
 
-### Entry Format
+### 条目格式
 
 ```
-- [Project Name](https://github.com/user/repo) - Short description of the project. `Language`
+- [项目名称](https://github.com/user/repo) - 简短描述。`语言`
 ```
 
-### What Belongs Here
+### 收录标准
 
-- Fan translation patches for specific games
-- Translation tools/frameworks for game localization
-- Reverse-engineering toolkits for game text/font formats
-- Community translation coordination platforms
+- 特定游戏的社区翻译补丁
+- 游戏本地化相关的工具 / 框架
+- 游戏文本 / 字体格式的逆向工程工具
+- 社区翻译协作平台
 
-### What Does NOT Belong Here
+### 不收录
 
-- Official/localized game releases by publishers
-- Machine translation APIs with no game-specific component
-- General-purpose subtitle tools (unless game-focused)
-- Abandoned projects with no usable output
+- 发行商的官方本地化版本
+- 无游戏相关组件的通用翻译 API
+- 无可用产出的废弃项目
 
-## Quality Standards
+## 质量要求
 
-- The project should have a clear README
-- It should be functional or have a recent release
-- It must relate to video game translation/localization
+- 项目应有清晰的 README
+- 项目应可运行或有近期 Release
+- 必须与电子游戏翻译 / 本地化相关
 
-## Updating or Removing Entries
+## 更新与移除
 
-If a project is archived, abandoned, or its link is broken, open an issue or PR to update or remove it.
+如项目已归档、废弃或链接失效，请提 Issue 或 PR 进行更新或移除。
