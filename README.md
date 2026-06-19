@@ -14,7 +14,6 @@
 - [冒险 / 叙事](#冒险--叙事)
 - [集换式卡牌](#集换式卡牌)
 - [策略游戏 Mod](#策略游戏-mod)
-- [经典 / 复古](#经典--复古)
 - [翻译平台与社区](#翻译平台与社区)
 
 ---
@@ -24,7 +23,7 @@
 通用翻译工具，不限于特定游戏。
 
 - [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - Galgame / 文字游戏 / 漫画多语种实时机翻工具，支持 Hook 和 OCR 两种文本提取方式。
-- [LunaTranslator](https://github.com/HIllya51/LunaTranslator) - 视觉小说翻译器，支持 HOOK 提取、内嵌翻译、HOOK 模拟器（NS/PSP/PSV/PS2）、OCR、大语言模型翻译、日语假名注音。
+- [Lunatranslator](https://github.com/HIllya51/LunaTranslator) - 视觉小说翻译器，支持 HOOK 提取、内嵌翻译、HOOK 模拟器（NS/PSP/PSV/PS2）、OCR、大语言模型翻译、日语假名注音。
 - [AiNiee](https://github.com/NEKOparapa/AiNiee) - AI 一键自动翻译工具，深度支持 Mtool、Renpy、Translator++、ParaTranz 等游戏文本导出工具，同时支持小说、字幕、文档等格式。5800+ ★。
 - [FFXIVChnTextPatch-GP](https://github.com/GpointChen/FFXIVChnTextPatch-GP) - 最终幻想 XIV 国际服中文漢化器，支持 CSV 汉化和中国服档案导入。
 
@@ -32,6 +31,14 @@
 
 - [Call of Duty 4: Modern Warfare](https://github.com/thedavidweng/cod4-cn-patch) - 《使命召唤 4：现代战争》基于游侠汉化组 2009 年原版成果的现代化跨平台安装器，纯 Python 实现，支持 Windows / Linux / macOS。
 - [ULTRAKILL](https://github.com/ClearwaterUK/UltrakULL) - 社区翻译 Mod，支持多语言，JSON 格式语言文件便于贡献。
+- [Unreal / Unreal Tournament / UT2004](https://github.com/OldUnreal/OldUnreal-Localization) - 《虚幻》系列多语言本地化项目，覆盖 20+ 种语言。
+
+<details>
+<summary>更多 FPS 汉化项目（点击展开）</summary>
+
+- [Thief Gold](https://paratranz.cn/projects/19407) - 《神偷：黄金版》社区中文本地化，招募译者中。
+
+</details>
 
 ## RPG / 角色扮演
 
@@ -48,6 +55,7 @@
 - [Lilith's Throne](https://github.com/chinese-liliths-throne/liliths-throne-chinese-localization) - 《莉莉丝的王座》中文本地化。
 - [Star Wars: KOTOR](https://paratranz.cn/projects/16652) - 《星球大战：旧共和国武士》社区中文本地化，翻译中。
 - [Esoteric Ebb](https://github.com/RandolphVI/EsotericEbb_Chinese) - 《奥秘消退》简体中文汉化补丁。
+- [Neon Genesis Evangelion 2](https://github.com/xeonliu/nge_2_re) - 《新世纪福音战士 2》(PSP) 完整中文汉化补丁。
 
 </details>
 
@@ -114,20 +122,6 @@
 - [Total War: Warhammer III](https://paratranz.cn/projects/8668) - 《全面战争：战锤 3》亚登·KoA 重置修正 Mod 汉化。
 - [Mount & Blade](https://paratranz.cn/projects/7978) - 《骑马与砍杀》Aut Caesar aut nihil 罗马时期 Mod，16 名成员。
 - [Warcraft III](https://paratranz.cn/projects/19427) - 《魔兽争霸 3》洛丹伦之战自定义地图汉化。
-
-</details>
-
-## 经典 / 复古
-
-- [Unreal / Unreal Tournament / UT2004](https://github.com/OldUnreal/OldUnreal-Localization) - 《虚幻》系列多语言本地化项目，覆盖 20+ 种语言。
-- [Call of Duty 4: Modern Warfare](https://github.com/thedavidweng/cod4-cn-patch) - （同上·FPS）2009 年汉化补丁现代化。
-- [Deus Ex](https://github.com/fmwizard/deus-ex-i18n-toolkit) - （同上·RPG）2000 年经典本地化管线。
-
-<details>
-<summary>更多经典游戏汉化项目（点击展开）</summary>
-
-- [Thief Gold](https://paratranz.cn/projects/19407) - 《神偷：黄金版》社区中文本地化，招募译者中。
-- [Neon Genesis Evangelion 2](https://github.com/xeonliu/nge_2_re) - 《新世纪福音战士 2》(PSP) 完整中文汉化补丁。
 
 </details>
 
