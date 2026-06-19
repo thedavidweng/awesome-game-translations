@@ -7,11 +7,12 @@
 ## 目录
 
 - [中文 (Chinese)](#中文-chinese)
-  - [翻译工具](#翻译工具)
+  - [翻译工具与框架](#翻译工具与框架)
   - [FPS / 射击](#fps--射击)
   - [RPG / 角色扮演](#rpg--角色扮演)
+  - [模拟经营](#模拟经营)
+  - [解谜 / 平台](#解谜--平台)
   - [视觉小说 / 文字冒险](#视觉小说--文字冒险)
-  - [策略 / 模拟](#策略--模拟)
   - [经典 / 复古](#经典--复古)
 - [日语 (Japanese)](#日语-japanese)
 - [韩语 (Korean)](#韩语-korean)
@@ -23,26 +24,34 @@
 
 ## 中文 (Chinese)
 
-### 翻译工具
+> 标注说明：`简中` = 简体中文，`繁中` = 繁體中文
 
-- [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - Galgame / 文字游戏 / 漫画多语种实时机翻工具。支持 Hook 和 OCR 两种文本提取方式，兼容离线翻译，内置分词与字典功能。`C#` `WPF`
+### 翻译工具与框架
+
+- [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - Galgame / 文字游戏 / 漫画多语种实时机翻工具。支持 Hook 和 OCR 两种文本提取方式，兼容离线翻译，内置分词与字典功能。`简中` `C#` `WPF`
+- [LunaTranslator](https://github.com/HIllya51/LunaTranslator) - 视觉小说翻译器。支持 HOOK 提取（几乎适配所有常见和冷门视觉小说）、内嵌翻译、HOOK 模拟器（NS/PSP/PSV/PS2）、OCR、丰富的翻译接口（含大语言模型和离线翻译）、日语分词及假名注音、语音合成与识别。`简中` `繁中` `Python`
+- [AiNiee](https://github.com/NEKOparapa/AiNiee) - 专注于 AI 翻译的一键自动翻译工具。深度支持 Mtool、Renpy、Translator++、ParaTranz 等游戏文本导出工具，同时支持 Epub/TXT 小说、Srt/Ass 字幕、Word/PDF/MD 文档等格式。采用思维链翻译、AI 术语表、上下文关联等技术优化长文本翻译质量。`简中` `Python`
 
 ### FPS / 射击
 
-- [Call of Duty 4 中文补丁](https://github.com/thedavidweng/cod4-cn-patch) - 基于游侠汉化组 2009 年原版成果的现代化跨平台安装器。将原版私有 EXE 工具链替换为纯 Python 实现，支持 Windows / Linux (SteamOS) / macOS。`Python`
+- [Call of Duty 4 中文补丁](https://github.com/thedavidweng/cod4-cn-patch) - 基于游侠汉化组 2009 年原版成果的现代化跨平台安装器。将原版私有 EXE 工具链替换为纯 Python 实现，支持 Windows / Linux (SteamOS) / macOS。`简中` `Python`
 
 ### RPG / 角色扮演
 
-- [Deus Ex i18n Toolkit](https://github.com/fmwizard/deus-ex-i18n-toolkit) - 杀出重围 1 (GOTY / 1.112fm) 通用本地化工具包。处理二进制层面的工作：重写 UE1 文本包、从 TTF 生成字体图集、为 CJK 语言打 DLL 自动换行补丁。翻译数据以 JSON 字典形式输入。`Python`
-- [暗影狂奔：龙陨 简体中文汉化补丁](https://github.com/fmwizard/shadowrun-dragonfall-zh) - Shadowrun: Dragonfall – Director's Cut 完整简体中文汉化。覆盖全文本，提供 Steam / GOG / Epic 三平台安装包。
+- [Deus Ex i18n Toolkit](https://github.com/fmwizard/deus-ex-i18n-toolkit) - 杀出重围 1 (GOTY / 1.112fm) 通用本地化工具包。处理二进制层面的工作：重写 UE1 文本包、从 TTF 生成字体图集、为 CJK 语言打 DLL 自动换行补丁。翻译数据以 JSON 字典形式输入。`简中` `Python`
+- [Shadowrun: Dragonfall 简体中文汉化补丁](https://github.com/fmwizard/shadowrun-dragonfall-zh) - Shadowrun: Dragonfall – Director's Cut 完整简体中文汉化。覆盖全文本，提供 Steam / GOG / Epic 三平台安装包。`简中`
+
+### 模拟经营
+
+- [Mewgenics 中文翻译](https://github.com/rainzz-512/Mewgenics-Chinese-Translation) - 《Mewgenics》简体中文汉化补丁。覆盖 NPC 对话、物品与技能说明、UI 界面文本等。采用 AI 辅助翻译 + 游戏内测试校对，支持自定义字体替换。`简中`
+
+### 解谜 / 平台
+
+- [Hue 中文漢化補丁](https://github.com/Sheep-y/HueZh) - 2016 年游戏 Hue 的繁體中文汉化补丁。使用 Unity Doorstop 动态注入 + HarmonyX 加载中文数据，不修改游戏原始文件。支持 Steam 和 Epic 版本。`繁中` `C#`
 
 ### 视觉小说 / 文字冒险
 
-- [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - （同上·翻译工具）支持实时 Hook 提取游戏文本并调用多种翻译 API，也可通过 OCR 识别画面文字。
-
-### 策略 / 模拟
-
-*欢迎贡献！*
+- [The Pale Beyond 简体中文汉化补丁](https://github.com/RandolphVI/ThePaleBeyond_Chinese) - Steam 游戏 The Pale Beyond 简体中文本地化。25,000+ 条翻译，覆盖全部剧情对话、叙事文本和 UI 界面。`简中`
 
 ### 经典 / 复古
 
@@ -76,12 +85,7 @@
 
 ## 贡献
 
-欢迎提交 Pull Request！请先阅读[贡献指南](CONTRIBUTING.md)。
-
-添加项目时请提供：
-- 项目名称与 GitHub 链接
-- 1–2 句中文描述
-- 所属语言分区与分类
+欢迎提交 Pull Request 或通过 [Issue](../../issues/new?template=suggest_project.yml) 推荐项目！请先阅读[贡献指南](CONTRIBUTING.md)。
 
 ## 许可证
 

@@ -1,0 +1,89 @@
+name: 推荐项目 / Suggest a Project
+description: 推荐一个游戏翻译/汉化项目添加到列表中
+title: "[Add] "
+labels: ["addition"]
+body:
+  - type: input
+    id: project-url
+    attributes:
+      label: 项目链接 / Project URL
+      description: GitHub 仓库或其他项目主页链接
+      placeholder: https://github.com/user/repo
+    validations:
+      required: true
+
+  - type: input
+    id: project-name
+    attributes:
+      label: 项目名称 / Project Name
+      description: 项目的正式名称
+      placeholder: MisakaTranslator
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 项目描述 / Description
+      description: 用 1–2 句话说明这个项目做了什么
+      placeholder: 例：Galgame / 文字游戏多语种实时机翻工具，支持 Hook 和 OCR 两种文本提取方式。
+    validations:
+      required: true
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: 翻译语言 / Translation Language
+      description: 这个项目的翻译目标语言是什么？
+      options:
+        - 简中 (Simplified Chinese)
+        - 繁中 (Traditional Chinese)
+        - 日文 (Japanese)
+        - 韩文 (Korean)
+        - 其他 (Other)
+    validations:
+      required: true
+
+  - type: input
+    id: other-language
+    attributes:
+      label: 其他语言 / Other Language
+      description: 如果上面选了"其他"，请在这里填写具体语言
+      placeholder: 例：越南语、俄语
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: 游戏类型分类 / Game Genre
+      description: 这个项目属于哪个游戏类型？
+      options:
+        - 翻译工具与框架
+        - FPS / 射击
+        - RPG / 角色扮演
+        - 模拟经营
+        - 解谜 / 平台
+        - 视觉小说 / 文字冒险
+        - 经典 / 复古
+        - 其他（请在下方说明）
+    validations:
+      required: true
+
+  - type: input
+    id: game-name
+    attributes:
+      label: 对应游戏名称 / Game Name
+      description: 如果是特定游戏的翻译补丁，请填写游戏名称
+      placeholder: 例：Call of Duty 4
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 自查清单 / Checklist
+      description: 请确认以下事项
+      options:
+        - label: 项目有清晰的 README
+          required: true
+        - label: 项目可运行或有近期 Release
+          required: true
+        - label: 项目与电子游戏翻译/本地化相关
+          required: true
