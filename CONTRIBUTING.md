@@ -20,7 +20,7 @@
 游戏翻译项目：
 
 ```markdown
-- **Original Game Name** 《中文翻译名》，简短描述。`简中` [project-name](https://github.com/user/repo)
+- **Original Game Name** 《中文翻译名》：简短描述。`简中` [project-name](https://github.com/user/repo)
 ```
 
 翻译工具（不限于特定游戏）：
@@ -44,7 +44,7 @@
 ### 示例
 
 ```markdown
-- **Call of Duty 4: Modern Warfare** 《使命召唤 4：现代战争》，基于游侠汉化组 2009 年原版成果的现代化跨平台安装器。`简中` [cod4-cn-patch](https://github.com/thedavidweng/cod4-cn-patch)
+- **Call of Duty 4: Modern Warfare** 《使命召唤 4：现代战争》：基于游侠汉化组 2009 年原版成果的现代化跨平台安装器。`简中` [cod4-cn-patch](https://github.com/thedavidweng/cod4-cn-patch)
 ```
 
 ## 收录标准
