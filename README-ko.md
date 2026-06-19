@@ -2,7 +2,7 @@
 
 > 커뮤니티 주도 비디오 게임 번역, 현지화, 모딩 프로젝트 큐레이션 리스트。
 
-**다른 언어 / Other Languages：** [中文（简体/繁體）](README.md) · [English](README-en.md) · [日本語](README-ja.md)
+**다른 언어 / Other Languages：** [中文](README.md) · [English](README-en.md) · [日本語](README-ja.md)
 
 ---
 
@@ -12,10 +12,6 @@
 
 ---
 
-## 기여
+## Contributing
 
 Pull Request를 제출하거나 [Issue](../../issues/new?template=suggest_project.yml)로 프로젝트를 추천해 주세요! [기여 가이드라인](CONTRIBUTING.md)을 먼저 읽어 주세요.
-
-## 라이선스
-
-[![CC0 1.0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)

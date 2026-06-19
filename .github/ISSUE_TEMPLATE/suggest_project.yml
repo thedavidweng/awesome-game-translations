@@ -1,106 +1,66 @@
-name: 推荐项目 / Suggest a Project
-description: 推荐一个游戏翻译/汉化项目添加到列表中
+name: Suggest a Project
+description: Suggest a game translation project to add to the list
 title: "[Add] "
 labels: ["addition"]
 body:
   - type: input
-    id: game-name-original
-    attributes:
-      label: 原版游戏名称 / Original Game Name
-      description: 游戏的英文原名
-      placeholder: "例：Call of Duty 4: Modern Warfare"
-    validations:
-      required: true
-
-  - type: input
-    id: game-name-translated
-    attributes:
-      label: 中文翻译名 / Chinese Name
-      description: 游戏的中文名称（如有）
-      placeholder: "例：使命召唤 4：现代战争"
-
-  - type: input
     id: project-url
     attributes:
-      label: 项目链接 / Project URL
-      description: GitHub 仓库或其他项目主页链接
-      placeholder: https://github.com/user/repo
+      label: Project URL
+      description: GitHub repo, Paratranz page, or other project link
+      placeholder: "https://github.com/user/repo"
     validations:
       required: true
 
   - type: input
     id: project-name
     attributes:
-      label: 项目名称 / Project Name
-      description: GitHub 仓库名或项目简称（放在条目末尾的链接文字）
-      placeholder: "例：cod4-cn-patch"
+      label: Project / Game Name
+      description: The name to display as the link text
+      placeholder: "e.g. Call of Duty 4: Modern Warfare"
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: 项目描述 / Description
-      description: 用 1–2 句话说明这个项目做了什么
-      placeholder: "例：基于游侠汉化组 2009 年原版成果的现代化跨平台安装器，支持 Windows / Linux / macOS。"
+      label: Description
+      description: "Short description (1-2 sentences). Start with uppercase, end with a period."
+      placeholder: "e.g. Modern cross-platform installer for the classic 2009 Chinese localization."
     validations:
       required: true
-
-  - type: dropdown
-    id: language
-    attributes:
-      label: 翻译语言 / Translation Language
-      description: 这个项目的翻译目标语言是什么？
-      options:
-        - 简中 (Simplified Chinese)
-        - 繁中 (Traditional Chinese)
-        - 日文 (Japanese)
-        - 韩文 (Korean)
-        - 其他 (Other)
-    validations:
-      required: true
-
-  - type: input
-    id: other-language
-    attributes:
-      label: 其他语言 / Other Language
-      description: 如果上面选了"其他"，请在这里填写具体语言
-      placeholder: 例：越南语、俄语
 
   - type: dropdown
     id: category
     attributes:
-      label: 游戏类型分类 / Game Genre
-      description: 这个项目属于哪个游戏类型？
+      label: Category
       options:
-        - 翻译工具与框架（不限于特定游戏）
-        - FPS / 射击
-        - RPG / 角色扮演
-        - 模拟经营
-        - 冒险 / 叙事
-        - 解谜 / 平台
-        - 复古 / 模拟器
-        - 经典 / 复古
-        - 其他（请在下方说明）
+        - Translation Tools
+        - FPS / Shooter
+        - RPG
+        - Adventure / Narrative
+        - Card Games
+        - Strategy Game Mods
+        - Classic / Retro
+        - Other
     validations:
       required: true
 
   - type: input
-    id: tech-tags
+    id: base-game
     attributes:
-      label: 技术标签 / Tech Tags
-      description: 项目使用的编程语言或技术（可选）
-      placeholder: "例：Python, C#"
+      label: Base Game (for mods only)
+      description: "If this is a mod, what is the base game? e.g. Hearts of Iron IV"
+      placeholder: "Leave blank if not a mod"
 
   - type: checkboxes
     id: checklist
     attributes:
-      label: 自查清单 / Checklist
-      description: 请确认以下事项
+      label: Checklist
       options:
-        - label: 项目有清晰的 README
+        - label: The project has a clear README
           required: true
-        - label: 项目可运行或有近期 Release
+        - label: The project is functional or has a recent release
           required: true
-        - label: 项目与电子游戏翻译/本地化相关
+        - label: The project relates to video game translation / localization
           required: true

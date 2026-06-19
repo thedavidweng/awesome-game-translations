@@ -1,11 +1,10 @@
 ## What
 
-<!-- 简要说明你的改动 -->
+<!-- Brief description of your changes -->
 
 ## Checklist
 
-- [ ] 我已阅读 [贡献指南](CONTRIBUTING.md)
-- [ ] 条目格式：**原版游戏名** 《中文名》：描述。`简中`/`繁中` [项目名](链接)
-- [ ] 翻译工具条目：**工具名** ，描述。`简中` `语言` [GitHub](链接)
-- [ ] 项目有清晰的 README 且可运行/有近期 Release
-- [ ] 项目放在了正确的语言分区和游戏类型分类下
+- [ ] I have read the [contributing guidelines](CONTRIBUTING.md)
+- [ ] Entry format: `- [Name](url) - Description.` (dash separator, uppercase start, period end)
+- [ ] The project has a clear README and is functional or has a recent release
+- [ ] The entry is in the correct category section

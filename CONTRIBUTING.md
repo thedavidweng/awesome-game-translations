@@ -1,114 +1,56 @@
-# 贡献指南
+# Contributing
 
-感谢你对本列表的关注！🎉
+Contributions welcome! Please read the guidelines below before submitting.
 
-## 如何贡献
+## How to Contribute
 
-### 方式一：提交 Issue（推荐）
+**Option 1:** [Open an Issue](../../issues/new?template=suggest_project.yml) to suggest a project.
 
-不想自己改文件？直接[开一个 Issue](../../issues/new?template=suggest_project.yml)，填写模板即可，我们会帮你添加。
+**Option 2:** Submit a Pull Request.
 
-### 方式二：提交 Pull Request
+1. Fork the repo
+2. Add your entry to the appropriate section in `README.md`
+3. Submit a PR
 
-1. Fork 本仓库
-2. 在 `README.md` 中找到对应的语言分区和游戏类型分类
-3. 按照下方格式添加条目
-4. 提交 Pull Request
-
-## 条目格式
-
-游戏翻译项目：
+## Entry Format
 
 ```markdown
-- **Original Game Name** 《中文翻译名》：简短描述。`简中` [project-name](https://github.com/user/repo)
+- [Project Name](https://github.com/user/repo) - Short description starting with uppercase and ending with a period.
 ```
 
-翻译工具（不限于特定游戏）：
+For game-specific patches, include the original game name:
 
 ```markdown
-- **Tool Name** ，简短描述。`简中` `语言` [GitHub](https://github.com/user/repo)
+- [Game Name](https://github.com/user/repo) - Chinese localization patch for the tactical RPG.
 ```
 
-### 必填项
+## What Belongs Here
 
-- **原版游戏名称** ，英文原名，加粗显示
-- **中文翻译名** ，用《》包裹，紧跟英文名之后
-- **描述** ，1–2 句话说明项目做了什么
-- **语言标注** ，`简中`（简体中文）或 `繁中`（繁體中文），放在描述末尾
-- **项目链接** ，放在条目最末尾，格式为 `[project-name](url)` 或 `[GitHub](url)`
+- Fan translation patches for specific games
+- Translation tools and frameworks for game localization
+- Reverse-engineering toolkits for game text / font formats
+- Community translation coordination platforms
 
-### 可选项
+## What Does NOT Belong Here
 
-- **技术标签** ，如 `Python`、`C#`、`Go` 等，放在语言标注之后、项目链接之前
+- Official localized releases by publishers
+- General-purpose translation APIs with no game-specific component
+- Abandoned projects with no usable output
+- Projects that only have machine translation with no human review
 
-### 示例
+## Quality Standards
 
-```markdown
-- **Call of Duty 4: Modern Warfare** 《使命召唤 4：现代战争》：基于游侠汉化组 2009 年原版成果的现代化跨平台安装器。`简中` [cod4-cn-patch](https://github.com/thedavidweng/cod4-cn-patch)
-```
+- The project should have a clear README
+- The project should be functional or have a recent release
+- It must relate to video game translation / localization
+- Archived repos with working releases are acceptable
 
-## 收录标准
+## Mod Grouping
 
-✅ 收录：
+Game mod translations should be placed under a dedicated section (e.g. "Strategy Game Mods"). Multiple mods for the same base game are grouped under a `###` heading for that game.
 
-- 特定游戏的社区翻译补丁（汉化补丁、本地化 Mod 等）
-- 游戏翻译/本地化专用工具或框架
-- 游戏文本/字体格式的逆向工程工具
-- 游戏翻译协作平台
+Projects hosted on Paratranz (or similar platforms) without a GitHub repo are acceptable. Link to the Paratranz project page or Steam Workshop.
 
-❌ 不收录：
+## Updating or Removing Entries
 
-- 发行商的官方本地化版本
-- 无游戏相关组件的通用翻译 API
-- 无可用产出的废弃项目
-- 仅包含机翻、无校对的项目
-
-## 质量要求
-
-- 项目应有清晰的 README
-- 项目应可运行或有近期 Release
-- 必须与电子游戏翻译/本地化相关
-- 必须标注翻译的目标语言（简中/繁中）
-
-## 多语言 README 结构
-
-本项目按目标翻译语言分文件维护：
-
-| 文件 | 内容 |
-|------|------|
-| `README.md` | 主列表：简体中文 + 繁體中文（同一语言的书写变体，合在一起） |
-| `README-en.md` | 翻译到英文的项目 |
-| `README-ja.md` | 翻译到日文的项目 |
-| `README-ko.md` | 翻译到韩文的项目 |
-
-- 简体中文和繁体中文属于同一语言的书写变体，收录在同一个 `README.md` 中
-- 不同语言的翻译项目分开维护，因为受众不同
-- 添加新语言版本时：创建 `README-<语言代码>.md`，并在所有已有 README 的顶部语言切换链接中加入新链接
-
-## 分类规则
-
-- 如果项目同时适用于多种游戏类型，放在最相关的分类下，在其他分类中用交叉引用
-- 翻译工具统一放在「翻译工具与框架」分类
-- 语言分区下暂无项目的，保留空分区和 `*欢迎贡献！*` 标注
-- **Mod 归类**：游戏 Mod 汉化项目放在「策略游戏 Mod」等专门分类下，同一游戏的多个 Mod 用 `####` 四级标题分组，排列在一起
-- Paratranz 等协作平台上的项目，如果暂无 GitHub 仓库，也应收录，链接指向 Paratranz 项目页或 Steam Workshop
-
-## 语言标注
-
-| 标注 | 含义 |
-|------|------|
-| `简中` | 简体中文 (Simplified Chinese) |
-| `繁中` | 繁體中文 (Traditional Chinese) |
-| `日文` | 日本語 (Japanese) |
-| `韩文` | 한국어 (Korean) |
-
-如果项目支持多种语言，在项目描述中说明，标注中最主要的语言放前面。
-
-## 更新与移除
-
-- 项目已归档、废弃或链接失效 → 提 Issue 或 PR 移除
-- 项目信息过时 → 提 Issue 或 PR 更新
-
-## 行为准则
-
-参与本项目即表示你同意遵守 [Contributor Covenant 行为准则](CODE_OF_CONDUCT.md)。
+If a project is archived, abandoned, or its link is broken, open an issue or PR to update or remove it.
