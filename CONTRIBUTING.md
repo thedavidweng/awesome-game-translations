@@ -17,25 +17,34 @@
 
 ## 条目格式
 
+游戏翻译项目：
+
 ```markdown
-- [项目名称](https://github.com/user/repo) - 简短描述。`简中` `语言`
+- **Original Game Name** 《中文翻译名》— 简短描述。`简中` [project-name](https://github.com/user/repo)
+```
+
+翻译工具（不限于特定游戏）：
+
+```markdown
+- **Tool Name** — 简短描述。`简中` `语言` [GitHub](https://github.com/user/repo)
 ```
 
 ### 必填项
 
-- **项目名称** — 链接到项目主页（GitHub 仓库优先）
-- **描述** — 1–2 句话说明项目是什么、做了什么
+- **原版游戏名称** — 英文原名，加粗显示
+- **中文翻译名** — 用《》包裹，紧跟英文名之后
+- **描述** — 1–2 句话说明项目做了什么
 - **语言标注** — `简中`（简体中文）或 `繁中`（繁體中文），放在描述末尾
+- **项目链接** — 放在条目最末尾，格式为 `[project-name](url)` 或 `[GitHub](url)`
 
 ### 可选项
 
-- **技术标签** — 如 `Python`、`C#`、`Go` 等，放在语言标注之后
-- **游戏类型标签** — 如 `RPG`、`FPS` 等
+- **技术标签** — 如 `Python`、`C#`、`Go` 等，放在语言标注之后、项目链接之前
 
 ### 示例
 
 ```markdown
-- [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - Galgame / 文字游戏 / 漫画多语种实时机翻工具。支持 Hook 和 OCR 两种文本提取方式。`简中` `C#`
+- **Call of Duty 4: Modern Warfare** 《使命召唤 4：现代战争》— 基于游侠汉化组 2009 年原版成果的现代化跨平台安装器。`简中` [cod4-cn-patch](https://github.com/thedavidweng/cod4-cn-patch)
 ```
 
 ## 收录标准
