@@ -25,6 +25,7 @@
 - [MisakaTranslator / 御坂翻译器](https://github.com/hanmin0822/MisakaTranslator) - Galgame / 文字游戏 / 漫画多语种实时机翻工具，支持 Hook 和 OCR 两种文本提取方式。
 - [Lunatranslator](https://github.com/HIllya51/LunaTranslator) - 视觉小说翻译器，支持 HOOK 提取、内嵌翻译、HOOK 模拟器（NS/PSP/PSV/PS2）、OCR、大语言模型翻译、日语假名注音。
 - [AiNiee](https://github.com/NEKOparapa/AiNiee) - AI 一键自动翻译工具，深度支持 Mtool、Renpy、Translator++、ParaTranz 等游戏文本导出工具，同时支持小说、字幕、文档等格式。5800+ ★。
+- [RuneTranslate](https://github.com/3nginius/RuneTranslatePublic) - 桌面游戏翻译应用，支持 Windows、macOS 和 Linux。支持 RPG Maker、Ren'Py、Unity、Unreal、Godot 等引擎，可翻译成 35 种语言，内置编辑器可逐行审阅，并可导出可运行的游戏版本。闭源，提供免费版。
 - [FFXIVChnTextPatch-GP](https://github.com/GpointChen/FFXIVChnTextPatch-GP) - 最终幻想 XIV 国际服中文漢化器，支持 CSV 汉化和中国服档案导入。
 
 ## FPS / 射击
